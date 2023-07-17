@@ -5,8 +5,7 @@
 @layer base {
   @font-face {
     font-family: BarlowSemiCondensed-Regular;
-    src: url(./fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf)
-      format("woff");
+    src: url(./fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf);
   }
   @font-face {
     font-family: BarlowSemiCondensed-Bold;
@@ -17,7 +16,8 @@
     src: url(./fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Light.ttf);
   }
 }
-html, body {
+html,
+body {
   font-family: BarlowSemiCondensed-Regular;
 }
 
